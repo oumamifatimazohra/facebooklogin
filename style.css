@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(232, 228, 228);
+}
+.login{
+    transform: translate(94%,0%);
+    margin: 100px 500px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px white;
+    background-color: white;
+}
+.login input{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: solid 1px rgb(206, 191, 191);
+    outline: none;
+}
+.login .button0{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(60, 60, 230);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+.login a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(60, 60, 230);
+    margin: 20px;
+}
+.login .button{
+    background-color: rgb(20, 199, 10);
+    color: white;
+    margin: 20px 70px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.login hr{
+    margin: 0px 12px;
+    color: rgb(228, 223, 223);
+}
+div p{
+    margin: 10px;
+    position: absolute;
+    top: 480px;
+    right: 170px;
+}
+section{
+
+    position: absolute;
+    top: 200px ;
+    left: 150px;
+}
+section h1{
+    font-size: 50px;
+    color:  rgb(60, 60, 230);
+}
+section p{
+    font-size: 26px;
+}
+#error{
+
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+#err{
+    
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
